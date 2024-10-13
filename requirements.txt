@@ -1,8 +1,8 @@
-streamlit
+tiktoken
+openai
 langchain
-langchain_community
-pypdf
-bs4
-pymupdf
-langchain-text-splitters
+streamlit
 faiss-cpu
+langchain_community
+pypdf2
+langchain-text-splitters
