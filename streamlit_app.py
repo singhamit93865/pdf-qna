@@ -9,7 +9,7 @@ from langchain_community.chat_models import ChatOpenAI
 OPENAI_API_KEY=""
 
 # Set the title of the web app
-st.title('Simple Streamlit App to Extract and Display Pdf Data')
+st.title('PDF Question Answering Web App')
 
 #uploading a pdf file
 with st.sidebar:
