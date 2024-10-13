@@ -12,9 +12,8 @@ OPENAI_API_KEY = st.secrets["OPENAI_API_KEY"]
 st.title('PDF Question Answering Web App')
 
 #uploading a pdf file
-with st.sidebar:
-    st.title("Your document")
-    file=st.file_uploader("upload a PDF file",type="pdf")
+st.title("Your document")
+file=st.file_uploader("upload a PDF file",type="pdf")
     
 ## extracting and displaying from pdf
 if file is not None:
